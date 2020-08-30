@@ -1,8 +1,11 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
-    background-color: #FFF6EB;
+    background-color: #fafafa;
 }
+
+/*INICIANDO HEADER*/
 
 .header {
     width: 100%;
@@ -22,10 +25,9 @@ body, html {
 
 .title {
     text-align: center;
-    font-family: 'Lemonada', cursive;
-    margin: 0;
+    font-family: 'Playfair Display', serif;
     font-size: 2.5em;
-    line-height: 4.2em;
+    margin-top: .5em;
 }
 
 .header-links {
@@ -42,4 +44,47 @@ body, html {
 .header-links a {
     color: rgb(248, 241, 230);
     text-decoration: none;
+}
+
+/*CONCLUINDO HEADER*/
+
+
+/*CRIANDO ABA DO SLOGAN*/
+.slogan-container {
+    width: 80%;
+    background-color: #f8ead9;
+    padding: 10px;
+    box-shadow: -4px 7px 6px 7px rgba(0, 0, 0, 0.219);
+    border-radius: 4px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 60px auto;
+}
+
+/*CONCLUINDO ABA DO SLOGAN*/
+
+.goal-container {
+    display: block;
+    padding: 0;
+}
+
+.goal-container img {
+    width: 100%;
+    max-height: auto;
+    margin: 0;
+}
+
+.goal-container div {
+    background-color: #2E2E2E;
+    padding: 40px 25px;
+    margin: 0;
+}
+
+.goal-container div p {
+    margin: 0;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
 }
